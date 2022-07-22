@@ -37,6 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 -   `yarn create next-app .` create boilerplate in current project folder
 -   `yarn run dev`
+-   NOTE - use `cd ..` to move up a directory
 
 16:55 Add Moralis React package - https://www.npmjs.com/package/react-moralis
 
@@ -81,3 +82,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 17:52 useNotification
 
 17:58 Reading & Displaying contract data
+
+-   NOTE had an error running getRecentWinner - seems to have resolved? timestamp at 18:01
+
+18:03 A note about onSuccess
+
+-   onSuccess checks to see if a transaction was successfully sent to Metamask
+-   in the `handleSuccess()` function we include `await ex.wait(1)` to ensure the block confirmation is received as well
+
+18:03 Challenge - get UI to update with the winner of the lottery
+
+18:04 Tailwind CSS and styling the UI
+
+-   When developing front ends - two things to consider:
+-   Component libraries like `web3uikit`
+-   CSS libraries like Tailwind CSS
+-   https://tailwindcss.com/docs/guides/nextjs
