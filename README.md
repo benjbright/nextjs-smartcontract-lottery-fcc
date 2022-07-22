@@ -107,3 +107,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 18:07 Tailwind features
 
 18:13 Introduction to hosting your site
+
+18:15 IPFS - https://ipfs.io/
+
+-   NOTE to use the gateway `ipfs.io/ipfs/(insert CID from IPFS)`
+
+18:23 run `yarn build` for an optimized production build
+
+-   `yarn next export`
+-   in IPFS copy the 'out' folder CID and paste into Chrome using address above
+-   Can then interact with the contract - NOTE need a hardhat node running
+
+18:25 Hosting on IPFS and Filecoin using Fleek
+
+-   `fleek.co`
