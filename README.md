@@ -98,3 +98,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 -   Component libraries like `web3uikit`
 -   CSS libraries like Tailwind CSS
 -   https://tailwindcss.com/docs/guides/nextjs
+-   `yarn add --dev -D tailwindcss postcss autoprefixer`
+-   `yarn tailwindcss init -p`
+-   update `tailwind.config.js` as per the docs
+-   update `styles/globals.css` file as per the docs
+-   rerun the front end with `yarn dev`
+
+18:07 Tailwind features
+
+18:13 Introduction to hosting your site
