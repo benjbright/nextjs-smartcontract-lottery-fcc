@@ -121,3 +121,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 18:25 Hosting on IPFS and Filecoin using Fleek
 
 -   `fleek.co`
+-   Build command - `yarn install && yarn run build && yarn next export`
+
+18:31 Filecoin overview
